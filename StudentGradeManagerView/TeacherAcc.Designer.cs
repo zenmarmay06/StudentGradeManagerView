@@ -30,6 +30,7 @@ namespace StudentGradeManagerView
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnTeacherList = new System.Windows.Forms.Button();
             this.lblTeacherID = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@ namespace StudentGradeManagerView
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnTeacherList = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeacherAcc)).BeginInit();
             this.panel1.SuspendLayout();
@@ -79,6 +79,16 @@ namespace StudentGradeManagerView
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(624, 448);
             this.panel2.TabIndex = 4;
+            // 
+            // btnTeacherList
+            // 
+            this.btnTeacherList.Location = new System.Drawing.Point(425, 392);
+            this.btnTeacherList.Name = "btnTeacherList";
+            this.btnTeacherList.Size = new System.Drawing.Size(118, 23);
+            this.btnTeacherList.TabIndex = 31;
+            this.btnTeacherList.Text = "Teacher Accounts";
+            this.btnTeacherList.UseVisualStyleBackColor = true;
+            this.btnTeacherList.Click += new System.EventHandler(this.btnTeacherList_Click);
             // 
             // lblTeacherID
             // 
@@ -211,7 +221,7 @@ namespace StudentGradeManagerView
             // 
             // btnCourse
             // 
-            this.btnCourse.Location = new System.Drawing.Point(28, 247);
+            this.btnCourse.Location = new System.Drawing.Point(105, 276);
             this.btnCourse.Name = "btnCourse";
             this.btnCourse.Size = new System.Drawing.Size(84, 23);
             this.btnCourse.TabIndex = 8;
@@ -221,7 +231,7 @@ namespace StudentGradeManagerView
             // 
             // btnTeacherAcc
             // 
-            this.btnTeacherAcc.Location = new System.Drawing.Point(28, 209);
+            this.btnTeacherAcc.Location = new System.Drawing.Point(105, 238);
             this.btnTeacherAcc.Name = "btnTeacherAcc";
             this.btnTeacherAcc.Size = new System.Drawing.Size(118, 23);
             this.btnTeacherAcc.TabIndex = 7;
@@ -231,7 +241,7 @@ namespace StudentGradeManagerView
             // 
             // btnStudentAcc
             // 
-            this.btnStudentAcc.Location = new System.Drawing.Point(28, 170);
+            this.btnStudentAcc.Location = new System.Drawing.Point(105, 199);
             this.btnStudentAcc.Name = "btnStudentAcc";
             this.btnStudentAcc.Size = new System.Drawing.Size(118, 23);
             this.btnStudentAcc.TabIndex = 6;
@@ -241,7 +251,7 @@ namespace StudentGradeManagerView
             // 
             // btnAdminAcc
             // 
-            this.btnAdminAcc.Location = new System.Drawing.Point(28, 131);
+            this.btnAdminAcc.Location = new System.Drawing.Point(105, 160);
             this.btnAdminAcc.Name = "btnAdminAcc";
             this.btnAdminAcc.Size = new System.Drawing.Size(118, 23);
             this.btnAdminAcc.TabIndex = 5;
@@ -278,16 +288,6 @@ namespace StudentGradeManagerView
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnTeacherList
-            // 
-            this.btnTeacherList.Location = new System.Drawing.Point(425, 392);
-            this.btnTeacherList.Name = "btnTeacherList";
-            this.btnTeacherList.Size = new System.Drawing.Size(118, 23);
-            this.btnTeacherList.TabIndex = 31;
-            this.btnTeacherList.Text = "Teacher Accounts";
-            this.btnTeacherList.UseVisualStyleBackColor = true;
-            this.btnTeacherList.Click += new System.EventHandler(this.btnTeacherList_Click);
             // 
             // TeacherAcc
             // 
