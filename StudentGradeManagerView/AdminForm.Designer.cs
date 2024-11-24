@@ -52,6 +52,7 @@ namespace StudentGradeManagerView
             this.txtAdmin = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dgvAdminAcc = new System.Windows.Forms.DataGridView();
+            this.btnPerformance = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -60,6 +61,7 @@ namespace StudentGradeManagerView
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnPerformance);
             this.panel1.Controls.Add(this.btnCourseAssigned);
             this.panel1.Controls.Add(this.btnCourse);
             this.panel1.Controls.Add(this.btnTeacherAcc);
@@ -74,7 +76,7 @@ namespace StudentGradeManagerView
             // 
             // btnCourseAssigned
             // 
-            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 288);
+            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 328);
             this.btnCourseAssigned.Name = "btnCourseAssigned";
             this.btnCourseAssigned.Size = new System.Drawing.Size(118, 23);
             this.btnCourseAssigned.TabIndex = 9;
@@ -84,7 +86,7 @@ namespace StudentGradeManagerView
             // 
             // btnCourse
             // 
-            this.btnCourse.Location = new System.Drawing.Point(28, 247);
+            this.btnCourse.Location = new System.Drawing.Point(28, 287);
             this.btnCourse.Name = "btnCourse";
             this.btnCourse.Size = new System.Drawing.Size(84, 23);
             this.btnCourse.TabIndex = 8;
@@ -94,7 +96,7 @@ namespace StudentGradeManagerView
             // 
             // btnTeacherAcc
             // 
-            this.btnTeacherAcc.Location = new System.Drawing.Point(28, 209);
+            this.btnTeacherAcc.Location = new System.Drawing.Point(28, 249);
             this.btnTeacherAcc.Name = "btnTeacherAcc";
             this.btnTeacherAcc.Size = new System.Drawing.Size(118, 23);
             this.btnTeacherAcc.TabIndex = 7;
@@ -179,7 +181,7 @@ namespace StudentGradeManagerView
             this.lblAdminID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdminID.Location = new System.Drawing.Point(116, 96);
             this.lblAdminID.Name = "lblAdminID";
-            this.lblAdminID.Size = new System.Drawing.Size(74, 16);
+            this.lblAdminID.Size = new System.Drawing.Size(73, 16);
             this.lblAdminID.TabIndex = 22;
             this.lblAdminID.Text = "Admin ID:";
             // 
@@ -189,7 +191,7 @@ namespace StudentGradeManagerView
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(17, 97);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 16);
+            this.label5.Size = new System.Drawing.Size(73, 16);
             this.label5.TabIndex = 21;
             this.label5.Text = "Admin ID:";
             // 
@@ -199,7 +201,7 @@ namespace StudentGradeManagerView
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(19, 252);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(79, 16);
             this.label4.TabIndex = 19;
             this.label4.Text = "Password:";
             // 
@@ -217,7 +219,7 @@ namespace StudentGradeManagerView
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(17, 204);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 16);
+            this.label3.Size = new System.Drawing.Size(50, 16);
             this.label3.TabIndex = 17;
             this.label3.Text = "Email:";
             // 
@@ -235,7 +237,7 @@ namespace StudentGradeManagerView
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(17, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 16);
+            this.label2.Size = new System.Drawing.Size(81, 16);
             this.label2.TabIndex = 15;
             this.label2.Text = "Full Name:";
             // 
@@ -292,6 +294,16 @@ namespace StudentGradeManagerView
             this.dgvAdminAcc.Size = new System.Drawing.Size(276, 320);
             this.dgvAdminAcc.TabIndex = 0;
             // 
+            // btnPerformance
+            // 
+            this.btnPerformance.Location = new System.Drawing.Point(28, 204);
+            this.btnPerformance.Name = "btnPerformance";
+            this.btnPerformance.Size = new System.Drawing.Size(118, 23);
+            this.btnPerformance.TabIndex = 10;
+            this.btnPerformance.Text = "Student Peformance";
+            this.btnPerformance.UseVisualStyleBackColor = true;
+            this.btnPerformance.Click += new System.EventHandler(this.btnPerformance_Click);
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -337,5 +349,6 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.Label lblAdminID;
         private System.Windows.Forms.Button btnAdminList;
         private System.Windows.Forms.Button btnCourseAssigned;
+        private System.Windows.Forms.Button btnPerformance;
     }
 }

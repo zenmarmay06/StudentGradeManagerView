@@ -30,6 +30,7 @@ namespace StudentGradeManagerView
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dgvStudent = new System.Windows.Forms.DataGridView();
             this.txtStudent = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -37,14 +38,13 @@ namespace StudentGradeManagerView
             this.btnView = new System.Windows.Forms.Button();
             this.btnUpdateAcc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvStudent = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -56,6 +56,14 @@ namespace StudentGradeManagerView
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(624, 448);
             this.panel2.TabIndex = 10;
+            // 
+            // dgvStudent
+            // 
+            this.dgvStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvStudent.Location = new System.Drawing.Point(85, 64);
+            this.dgvStudent.Name = "dgvStudent";
+            this.dgvStudent.Size = new System.Drawing.Size(433, 320);
+            this.dgvStudent.TabIndex = 16;
             // 
             // txtStudent
             // 
@@ -87,25 +95,25 @@ namespace StudentGradeManagerView
             // 
             // btnCourse
             // 
-            this.btnCourse.Location = new System.Drawing.Point(29, 158);
+            this.btnCourse.Location = new System.Drawing.Point(29, 185);
             this.btnCourse.Name = "btnCourse";
-            this.btnCourse.Size = new System.Drawing.Size(118, 23);
+            this.btnCourse.Size = new System.Drawing.Size(144, 23);
             this.btnCourse.TabIndex = 9;
-            this.btnCourse.Text = "Course List";
+            this.btnCourse.Text = "Assigned Courses";
             this.btnCourse.UseVisualStyleBackColor = true;
             // 
             // btnView
             // 
             this.btnView.Location = new System.Drawing.Point(29, 236);
             this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(118, 23);
+            this.btnView.Size = new System.Drawing.Size(144, 23);
             this.btnView.TabIndex = 7;
-            this.btnView.Text = "View Grades";
+            this.btnView.Text = "Performance Report";
             this.btnView.UseVisualStyleBackColor = true;
             // 
             // btnUpdateAcc
             // 
-            this.btnUpdateAcc.Location = new System.Drawing.Point(29, 197);
+            this.btnUpdateAcc.Location = new System.Drawing.Point(29, 138);
             this.btnUpdateAcc.Name = "btnUpdateAcc";
             this.btnUpdateAcc.Size = new System.Drawing.Size(159, 23);
             this.btnUpdateAcc.TabIndex = 6;
@@ -122,13 +130,15 @@ namespace StudentGradeManagerView
             this.label1.TabIndex = 4;
             this.label1.Text = "STUDENT";
             // 
-            // dgvStudent
+            // pictureBox2
             // 
-            this.dgvStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvStudent.Location = new System.Drawing.Point(85, 64);
-            this.dgvStudent.Name = "dgvStudent";
-            this.dgvStudent.Size = new System.Drawing.Size(433, 320);
-            this.dgvStudent.TabIndex = 16;
+            this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_admin_48__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(115, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(87, 87);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -139,16 +149,6 @@ namespace StudentGradeManagerView
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_admin_48__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(115, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(87, 87);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
             // 
             // StudentForm
             // 
@@ -163,11 +163,11 @@ namespace StudentGradeManagerView
             this.Text = "StudentForm";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvStudent)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

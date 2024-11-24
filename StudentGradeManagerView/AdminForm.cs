@@ -274,5 +274,10 @@ namespace StudentGradeManagerView
             assignedCourse.Show();
             this.Hide();
         }
+
+        private void btnPerformance_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

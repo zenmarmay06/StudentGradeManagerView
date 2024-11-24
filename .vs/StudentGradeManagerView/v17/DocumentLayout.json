@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\assignedcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\assignedcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\courselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\courselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\inputgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\inputgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\updatestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\updateteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\updateteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\viewteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\viewteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\teacheracc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\teacheracc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\viewstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\studentacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\studentacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\createadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\createadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|f:\\oop\\studentgrademanager\\studentgrademanagerview\\studentgrademanagerview\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87516199-01C2-4D9A-85CE-46DCCF50D9DC}|StudentGradeManagerView\\StudentGradeManagerView.csproj|solutionrelative:studentgrademanagerview\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherForm.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\TeacherForm.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\TeacherForm.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\TeacherForm.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\TeacherForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:57:34.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentForm.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\StudentForm.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\StudentForm.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\StudentForm.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\StudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:59:07.398Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputGrades.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\InputGrades.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\InputGrades.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\InputGrades.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\InputGrades.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:57:24.34Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseList.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\CourseList.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\CourseList.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\CourseList.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\CourseList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:55:55.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignedCourse.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\AssignedCourse.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\AssignedCourse.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\AssignedCourse.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\AssignedCourse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:55:17.143Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateStudent.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\UpdateStudent.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\UpdateStudent.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\UpdateStudent.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\UpdateStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:57:40.098Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateTeacher.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\UpdateTeacher.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\UpdateTeacher.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\UpdateTeacher.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\UpdateTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:57:48.465Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewTeacher.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\ViewTeacher.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\ViewTeacher.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\ViewTeacher.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\ViewTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:58:03.247Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeacherForm.cs",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\TeacherForm.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\TeacherForm.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\TeacherForm.cs",
+              "RelativeToolTip": "StudentGradeManagerView\\TeacherForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAWwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:59:47.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeacherAcc.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\TeacherAcc.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\TeacherAcc.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\TeacherAcc.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\TeacherAcc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:56:44.666Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewStudent.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\ViewStudent.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\ViewStudent.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\ViewStudent.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\ViewStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:57:54.794Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentAcc.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\StudentAcc.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\StudentAcc.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\StudentAcc.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\StudentAcc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:56:25.659Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateAdmin.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\CreateAdmin.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\CreateAdmin.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\CreateAdmin.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\CreateAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:56:19.282Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\AdminForm.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\AdminForm.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\AdminForm.cs",
+              "RelativeToolTip": "StudentGradeManagerView\\AdminForm.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAhwBcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:54:54.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\AdminForm.cs",
+              "RelativeDocumentMoniker": "StudentGradeManagerView\\AdminForm.cs",
+              "ToolTip": "F:\\OOP\\StudentGradeManager\\StudentGradeManagerView\\StudentGradeManagerView\\AdminForm.cs [Design]",
+              "RelativeToolTip": "StudentGradeManagerView\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:53:51.859Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

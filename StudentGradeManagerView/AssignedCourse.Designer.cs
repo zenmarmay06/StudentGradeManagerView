@@ -30,6 +30,8 @@ namespace StudentGradeManagerView
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCourseList = new System.Windows.Forms.Button();
+            this.dgvCourseAss = new System.Windows.Forms.DataGridView();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblCourseID = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,15 +52,12 @@ namespace StudentGradeManagerView
             this.btnStudentAcc = new System.Windows.Forms.Button();
             this.btnAdminAcc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnCourseList = new System.Windows.Forms.Button();
-            this.dgvCourseAss = new System.Windows.Forms.DataGridView();
+            this.btnPerformance = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCourseAss)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -83,6 +82,24 @@ namespace StudentGradeManagerView
             this.panel2.Size = new System.Drawing.Size(624, 448);
             this.panel2.TabIndex = 4;
             // 
+            // btnCourseList
+            // 
+            this.btnCourseList.Location = new System.Drawing.Point(424, 403);
+            this.btnCourseList.Name = "btnCourseList";
+            this.btnCourseList.Size = new System.Drawing.Size(118, 23);
+            this.btnCourseList.TabIndex = 35;
+            this.btnCourseList.Text = "Assigned Course";
+            this.btnCourseList.UseVisualStyleBackColor = true;
+            this.btnCourseList.Click += new System.EventHandler(this.btnCourseList_Click);
+            // 
+            // dgvCourseAss
+            // 
+            this.dgvCourseAss.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCourseAss.Location = new System.Drawing.Point(338, 67);
+            this.dgvCourseAss.Name = "dgvCourseAss";
+            this.dgvCourseAss.Size = new System.Drawing.Size(276, 320);
+            this.dgvCourseAss.TabIndex = 33;
+            // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(24, 328);
@@ -99,7 +116,7 @@ namespace StudentGradeManagerView
             this.lblCourseID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCourseID.Location = new System.Drawing.Point(122, 116);
             this.lblCourseID.Name = "lblCourseID";
-            this.lblCourseID.Size = new System.Drawing.Size(74, 16);
+            this.lblCourseID.Size = new System.Drawing.Size(73, 16);
             this.lblCourseID.TabIndex = 22;
             this.lblCourseID.Text = "Admin ID:";
             // 
@@ -109,7 +126,7 @@ namespace StudentGradeManagerView
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(23, 117);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 16);
+            this.label5.Size = new System.Drawing.Size(79, 16);
             this.label5.TabIndex = 21;
             this.label5.Text = "Course ID:";
             // 
@@ -119,7 +136,7 @@ namespace StudentGradeManagerView
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(25, 272);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 16);
+            this.label4.Size = new System.Drawing.Size(82, 16);
             this.label4.TabIndex = 19;
             this.label4.Text = "Student ID:";
             // 
@@ -137,7 +154,7 @@ namespace StudentGradeManagerView
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 224);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 16);
+            this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 17;
             this.label3.Text = "Semester:";
             // 
@@ -155,7 +172,7 @@ namespace StudentGradeManagerView
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(23, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 16);
+            this.label2.Size = new System.Drawing.Size(88, 16);
             this.label2.TabIndex = 15;
             this.label2.Text = "Teacher ID:";
             // 
@@ -206,6 +223,7 @@ namespace StudentGradeManagerView
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnPerformance);
             this.panel1.Controls.Add(this.btnCourseAssigned);
             this.panel1.Controls.Add(this.btnCourse);
             this.panel1.Controls.Add(this.btnTeacherAcc);
@@ -220,7 +238,7 @@ namespace StudentGradeManagerView
             // 
             // btnCourseAssigned
             // 
-            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 288);
+            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 334);
             this.btnCourseAssigned.Name = "btnCourseAssigned";
             this.btnCourseAssigned.Size = new System.Drawing.Size(118, 23);
             this.btnCourseAssigned.TabIndex = 9;
@@ -230,7 +248,7 @@ namespace StudentGradeManagerView
             // 
             // btnCourse
             // 
-            this.btnCourse.Location = new System.Drawing.Point(28, 247);
+            this.btnCourse.Location = new System.Drawing.Point(28, 293);
             this.btnCourse.Name = "btnCourse";
             this.btnCourse.Size = new System.Drawing.Size(84, 23);
             this.btnCourse.TabIndex = 8;
@@ -240,7 +258,7 @@ namespace StudentGradeManagerView
             // 
             // btnTeacherAcc
             // 
-            this.btnTeacherAcc.Location = new System.Drawing.Point(28, 209);
+            this.btnTeacherAcc.Location = new System.Drawing.Point(28, 255);
             this.btnTeacherAcc.Name = "btnTeacherAcc";
             this.btnTeacherAcc.Size = new System.Drawing.Size(118, 23);
             this.btnTeacherAcc.TabIndex = 7;
@@ -278,16 +296,6 @@ namespace StudentGradeManagerView
             this.label1.TabIndex = 4;
             this.label1.Text = "ADMIN";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::StudentGradeManagerView.Properties.Resources.z241;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_administrator_male_26;
@@ -298,30 +306,20 @@ namespace StudentGradeManagerView
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
-            // btnCourseList
+            // btnPerformance
             // 
-            this.btnCourseList.Location = new System.Drawing.Point(424, 403);
-            this.btnCourseList.Name = "btnCourseList";
-            this.btnCourseList.Size = new System.Drawing.Size(118, 23);
-            this.btnCourseList.TabIndex = 35;
-            this.btnCourseList.Text = "Assigned Course";
-            this.btnCourseList.UseVisualStyleBackColor = true;
-            this.btnCourseList.Click += new System.EventHandler(this.btnCourseList_Click);
-            // 
-            // dgvCourseAss
-            // 
-            this.dgvCourseAss.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCourseAss.Location = new System.Drawing.Point(338, 67);
-            this.dgvCourseAss.Name = "dgvCourseAss";
-            this.dgvCourseAss.Size = new System.Drawing.Size(276, 320);
-            this.dgvCourseAss.TabIndex = 33;
+            this.btnPerformance.Location = new System.Drawing.Point(28, 214);
+            this.btnPerformance.Name = "btnPerformance";
+            this.btnPerformance.Size = new System.Drawing.Size(118, 23);
+            this.btnPerformance.TabIndex = 11;
+            this.btnPerformance.Text = "Student Peformance";
+            this.btnPerformance.UseVisualStyleBackColor = true;
             // 
             // AssignedCourse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(956, 520);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -329,18 +327,15 @@ namespace StudentGradeManagerView
             this.Text = "AssignedCourse";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCourseAss)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCourseAss)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblCourseID;
@@ -365,5 +360,6 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnCourseList;
         private System.Windows.Forms.DataGridView dgvCourseAss;
+        private System.Windows.Forms.Button btnPerformance;
     }
 }

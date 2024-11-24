@@ -41,12 +41,10 @@ namespace StudentGradeManagerView
             this.btnInput = new System.Windows.Forms.Button();
             this.btnUpdateAcc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeacherGrades)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +75,7 @@ namespace StudentGradeManagerView
             this.lblTeacherID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeacherID.Location = new System.Drawing.Point(102, 37);
             this.lblTeacherID.Name = "lblTeacherID";
-            this.lblTeacherID.Size = new System.Drawing.Size(89, 16);
+            this.lblTeacherID.Size = new System.Drawing.Size(88, 16);
             this.lblTeacherID.TabIndex = 69;
             this.lblTeacherID.Text = "Taecher ID:";
             // 
@@ -87,7 +85,7 @@ namespace StudentGradeManagerView
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(13, 37);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 16);
+            this.label6.Size = new System.Drawing.Size(88, 16);
             this.label6.TabIndex = 68;
             this.label6.Text = "Teacher ID:";
             // 
@@ -122,38 +120,38 @@ namespace StudentGradeManagerView
             // 
             // btnCourse
             // 
-            this.btnCourse.Location = new System.Drawing.Point(32, 146);
+            this.btnCourse.Location = new System.Drawing.Point(32, 195);
             this.btnCourse.Name = "btnCourse";
             this.btnCourse.Size = new System.Drawing.Size(118, 23);
             this.btnCourse.TabIndex = 9;
-            this.btnCourse.Text = "Course List";
+            this.btnCourse.Text = "Assigned Students";
             this.btnCourse.UseVisualStyleBackColor = true;
             // 
             // btnViewGrades
             // 
-            this.btnViewGrades.Location = new System.Drawing.Point(32, 266);
+            this.btnViewGrades.Location = new System.Drawing.Point(32, 278);
             this.btnViewGrades.Name = "btnViewGrades";
-            this.btnViewGrades.Size = new System.Drawing.Size(118, 23);
+            this.btnViewGrades.Size = new System.Drawing.Size(159, 48);
             this.btnViewGrades.TabIndex = 8;
-            this.btnViewGrades.Text = "View Grades";
+            this.btnViewGrades.Text = "Calculate and Performance Report";
             this.btnViewGrades.UseVisualStyleBackColor = true;
             // 
             // btnInput
             // 
-            this.btnInput.Location = new System.Drawing.Point(32, 224);
+            this.btnInput.Location = new System.Drawing.Point(32, 237);
             this.btnInput.Name = "btnInput";
-            this.btnInput.Size = new System.Drawing.Size(118, 23);
+            this.btnInput.Size = new System.Drawing.Size(159, 23);
             this.btnInput.TabIndex = 7;
-            this.btnInput.Text = "Input Grades";
+            this.btnInput.Text = "Input and Update  Grades";
             this.btnInput.UseVisualStyleBackColor = true;
             // 
             // btnUpdateAcc
             // 
-            this.btnUpdateAcc.Location = new System.Drawing.Point(32, 185);
+            this.btnUpdateAcc.Location = new System.Drawing.Point(32, 157);
             this.btnUpdateAcc.Name = "btnUpdateAcc";
             this.btnUpdateAcc.Size = new System.Drawing.Size(159, 23);
             this.btnUpdateAcc.TabIndex = 6;
-            this.btnUpdateAcc.Text = "Update  Accounts";
+            this.btnUpdateAcc.Text = "View/Update  Accounts";
             this.btnUpdateAcc.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -165,16 +163,6 @@ namespace StudentGradeManagerView
             this.label1.Size = new System.Drawing.Size(93, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "TEACHER";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::StudentGradeManagerView.Properties.Resources.z241;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -192,7 +180,6 @@ namespace StudentGradeManagerView
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(956, 520);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -203,15 +190,12 @@ namespace StudentGradeManagerView
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeacherGrades)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnCourse;
