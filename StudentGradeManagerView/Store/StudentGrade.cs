@@ -10,18 +10,20 @@ namespace StudentGradeManagerView.Store
     {
         public string StudentName { get; set; }
 
-
+       
         public int CourseId { get; set; }
 
-
+        public string Semester { get; set; } // Track semester assignment (e.g., "first" or "second")
 
         public int StudentID { get; set; }
         public string CourseName { get; set; }
         
-        public int? MidtermGrade { get; set; }
+        public double? MidtermGrade { get; set; }
 
-       
-        public int? FinalGrade { get; set; }
-        public double? Grade => (MidtermGrade + FinalGrade) / 2;
+        
+        public double? FinalGrade { get; set; }
+
+        // Calculate the average grade as a double
+        
     }
 }

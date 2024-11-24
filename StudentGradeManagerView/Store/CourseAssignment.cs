@@ -13,5 +13,7 @@ namespace StudentGradeManagerView.Store
         public string CourseName { get; set; } // New property for course name
         public List<int> StudentIDs { get; set; } = new List<int>();
         public List<int> TeacherIDs { get; set; } = new List<int>();
+        public string Semester { get; set; } // Track semester assignment (e.g., "first" or "second")
+        public string YearSection { get; set; }
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentGradeManagerView.Model
+namespace StudentGradeManagerView.Model.DTO
 {
-    public class RegisterTeacher
+    public class RegisterAdmin
     {
         public string FullName { get; set; }
         public string Email { get; set; }

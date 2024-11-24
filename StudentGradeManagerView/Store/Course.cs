@@ -10,9 +10,12 @@ namespace StudentGradeManagerView.Store
     {
         public int CourseID { get; set; }
 
-    
         public string CourseName { get; set; }
 
-        public string Section { get; set; }
+        public string YearSection { get; set; }
+        public string Semester { get; set; } // Add this property
+        public int TeacherID { get; set; }
+        public List<int> StudentIDs { get; set; } = new List<int>();
+
     }
 }

@@ -17,28 +17,28 @@ namespace StudentGradeManagerView
             InitializeComponent();
         }
 
-        private void btnCourse_Click(object sender, EventArgs e)
+        private void BtnCourse_Click(object sender, EventArgs e)
         {
-            Teacher courselist = new Teacher();
+            TeacherForm courselist = new TeacherForm();
             courselist.Show();
             this.Hide();
         }
 
-        private void btnUpdateAcc_Click(object sender, EventArgs e)
+        private void BtnUpdateAcc_Click(object sender, EventArgs e)
         {
             UpdateTeacher update = new UpdateTeacher();
             update.Show();
             this.Hide();
         }
 
-        private void btnInput_Click(object sender, EventArgs e)
+        private void BtnInput_Click(object sender, EventArgs e)
         {
             InputGrades input = new InputGrades();
             input.Show();
             this.Hide();
         }
 
-        private void btnViewGrades_Click(object sender, EventArgs e)
+        private void BtnViewGrades_Click(object sender, EventArgs e)
         {
             ViewTeacher view = new ViewTeacher();
             view.Show();

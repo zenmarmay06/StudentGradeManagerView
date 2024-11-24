@@ -1,7 +1,7 @@
 ﻿
 namespace StudentGradeManagerView
 {
-    partial class Teacher
+    partial class TeacherForm
     {
         /// <summary>
         /// Required designer variable.

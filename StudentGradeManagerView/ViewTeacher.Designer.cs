@@ -128,7 +128,6 @@ namespace StudentGradeManagerView
             this.btnCourse.TabIndex = 9;
             this.btnCourse.Text = "Course List";
             this.btnCourse.UseVisualStyleBackColor = true;
-            this.btnCourse.Click += new System.EventHandler(this.btnCourse_Click);
             // 
             // btnViewGrades
             // 
@@ -138,7 +137,6 @@ namespace StudentGradeManagerView
             this.btnViewGrades.TabIndex = 8;
             this.btnViewGrades.Text = "View Grades";
             this.btnViewGrades.UseVisualStyleBackColor = true;
-            this.btnViewGrades.Click += new System.EventHandler(this.btnViewGrades_Click);
             // 
             // btnInput
             // 
@@ -148,7 +146,6 @@ namespace StudentGradeManagerView
             this.btnInput.TabIndex = 7;
             this.btnInput.Text = "Input Grades";
             this.btnInput.UseVisualStyleBackColor = true;
-            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
             // btnUpdateAcc
             // 
@@ -158,7 +155,6 @@ namespace StudentGradeManagerView
             this.btnUpdateAcc.TabIndex = 6;
             this.btnUpdateAcc.Text = "Update  Accounts";
             this.btnUpdateAcc.UseVisualStyleBackColor = true;
-            this.btnUpdateAcc.Click += new System.EventHandler(this.btnUpdateAcc_Click);
             // 
             // label1
             // 

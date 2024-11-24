@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace StudentGradeManagerView
 {
-    public partial class Teacher : Form
+    public partial class TeacherForm : Form
     {
-        public Teacher()
+        public TeacherForm()
         {
             InitializeComponent();
         }
 
         private void btnCourse_Click(object sender, EventArgs e)
         {
-            Teacher courselist = new Teacher();
+            TeacherForm courselist = new TeacherForm();
             courselist.Show();
             this.Hide();
         }

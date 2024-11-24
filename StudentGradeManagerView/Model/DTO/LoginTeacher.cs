@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentGradeManagerView.Model
+namespace StudentGradeManagerView.Model.DTO
 {
-    public class RegisterStudent
+    public class LoginTeacher
     {
-        public string FullName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-
-        public string YearSection { get; set; } // Only required for Student
-
+        public string PlatForm { get; set; }
     }
 }

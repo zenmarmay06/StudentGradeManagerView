@@ -30,57 +30,58 @@ namespace StudentGradeManagerView
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblCourseID = new System.Windows.Forms.Label();
+            this.txtCourseID = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtFullName = new System.Windows.Forms.TextBox();
+            this.txtCourseName = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.txtAdmin = new System.Windows.Forms.TextBox();
+            this.txtCourse = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.dgvAdminAcc = new System.Windows.Forms.DataGridView();
+            this.dgvCourse = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCourse = new System.Windows.Forms.Button();
             this.btnTeacherAcc = new System.Windows.Forms.Button();
             this.btnStudentAcc = new System.Windows.Forms.Button();
             this.btnAdminAcc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnCourseList = new System.Windows.Forms.Button();
+            this.btnCourseAssigned = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAdminAcc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCourse)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.lblCourseID);
+            this.panel2.Controls.Add(this.btnCourseList);
+            this.panel2.Controls.Add(this.txtCourseID);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.txtFullName);
+            this.panel2.Controls.Add(this.txtCourseName);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnUpdate);
             this.panel2.Controls.Add(this.btnAdd);
-            this.panel2.Controls.Add(this.txtAdmin);
+            this.panel2.Controls.Add(this.txtCourse);
             this.panel2.Controls.Add(this.btnSearch);
-            this.panel2.Controls.Add(this.dgvAdminAcc);
+            this.panel2.Controls.Add(this.dgvCourse);
             this.panel2.Location = new System.Drawing.Point(330, 64);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(624, 448);
             this.panel2.TabIndex = 4;
             // 
-            // lblCourseID
+            // txtCourseID
             // 
-            this.lblCourseID.AutoSize = true;
-            this.lblCourseID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCourseID.Location = new System.Drawing.Point(132, 169);
-            this.lblCourseID.Name = "lblCourseID";
-            this.lblCourseID.Size = new System.Drawing.Size(74, 16);
-            this.lblCourseID.TabIndex = 31;
-            this.lblCourseID.Text = "Admin ID:";
+            this.txtCourseID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCourseID.Location = new System.Drawing.Point(145, 164);
+            this.txtCourseID.Name = "txtCourseID";
+            this.txtCourseID.Size = new System.Drawing.Size(115, 22);
+            this.txtCourseID.TabIndex = 31;
             // 
             // label5
             // 
@@ -102,13 +103,13 @@ namespace StudentGradeManagerView
             this.label2.TabIndex = 29;
             this.label2.Text = "Course Name:";
             // 
-            // txtFullName
+            // txtCourseName
             // 
-            this.txtFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFullName.Location = new System.Drawing.Point(145, 205);
-            this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(164, 22);
-            this.txtFullName.TabIndex = 28;
+            this.txtCourseName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCourseName.Location = new System.Drawing.Point(145, 205);
+            this.txtCourseName.Name = "txtCourseName";
+            this.txtCourseName.Size = new System.Drawing.Size(164, 22);
+            this.txtCourseName.TabIndex = 28;
             // 
             // btnDelete
             // 
@@ -118,6 +119,7 @@ namespace StudentGradeManagerView
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "DELETE COURSE";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -127,6 +129,7 @@ namespace StudentGradeManagerView
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "UPDATE COURSE";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -136,13 +139,14 @@ namespace StudentGradeManagerView
             this.btnAdd.TabIndex = 11;
             this.btnAdd.Text = "ADD COURSE";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // txtAdmin
+            // txtCourse
             // 
-            this.txtAdmin.Location = new System.Drawing.Point(425, 29);
-            this.txtAdmin.Name = "txtAdmin";
-            this.txtAdmin.Size = new System.Drawing.Size(100, 20);
-            this.txtAdmin.TabIndex = 10;
+            this.txtCourse.Location = new System.Drawing.Point(425, 29);
+            this.txtCourse.Name = "txtCourse";
+            this.txtCourse.Size = new System.Drawing.Size(100, 20);
+            this.txtCourse.TabIndex = 10;
             // 
             // btnSearch
             // 
@@ -152,17 +156,19 @@ namespace StudentGradeManagerView
             this.btnSearch.TabIndex = 9;
             this.btnSearch.Text = "SEARCH ID";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // dgvAdminAcc
+            // dgvCourse
             // 
-            this.dgvAdminAcc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdminAcc.Location = new System.Drawing.Point(338, 55);
-            this.dgvAdminAcc.Name = "dgvAdminAcc";
-            this.dgvAdminAcc.Size = new System.Drawing.Size(276, 320);
-            this.dgvAdminAcc.TabIndex = 0;
+            this.dgvCourse.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCourse.Location = new System.Drawing.Point(338, 55);
+            this.dgvCourse.Name = "dgvCourse";
+            this.dgvCourse.Size = new System.Drawing.Size(276, 320);
+            this.dgvCourse.TabIndex = 0;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnCourseAssigned);
             this.panel1.Controls.Add(this.btnCourse);
             this.panel1.Controls.Add(this.btnTeacherAcc);
             this.panel1.Controls.Add(this.btnStudentAcc);
@@ -224,15 +230,25 @@ namespace StudentGradeManagerView
             this.label1.TabIndex = 4;
             this.label1.Text = "ADMIN";
             // 
-            // pictureBox2
+            // btnCourseList
             // 
-            this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_administrator_male_26;
-            this.pictureBox2.Location = new System.Drawing.Point(105, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(97, 87);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.btnCourseList.Location = new System.Drawing.Point(425, 398);
+            this.btnCourseList.Name = "btnCourseList";
+            this.btnCourseList.Size = new System.Drawing.Size(110, 23);
+            this.btnCourseList.TabIndex = 32;
+            this.btnCourseList.Text = "COURSE LIST";
+            this.btnCourseList.UseVisualStyleBackColor = true;
+            this.btnCourseList.Click += new System.EventHandler(this.btnCourseList_Click);
+            // 
+            // btnCourseAssigned
+            // 
+            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 290);
+            this.btnCourseAssigned.Name = "btnCourseAssigned";
+            this.btnCourseAssigned.Size = new System.Drawing.Size(118, 23);
+            this.btnCourseAssigned.TabIndex = 33;
+            this.btnCourseAssigned.Text = "Assigned Course";
+            this.btnCourseAssigned.UseVisualStyleBackColor = true;
+            this.btnCourseAssigned.Click += new System.EventHandler(this.btnCourseAssigned_Click);
             // 
             // pictureBox1
             // 
@@ -243,6 +259,16 @@ namespace StudentGradeManagerView
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_administrator_male_26;
+            this.pictureBox2.Location = new System.Drawing.Point(105, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(97, 87);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // CourseList
             // 
@@ -257,11 +283,11 @@ namespace StudentGradeManagerView
             this.Text = "CourseList";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAdminAcc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCourse)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -273,9 +299,9 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox txtAdmin;
+        private System.Windows.Forms.TextBox txtCourse;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.DataGridView dgvAdminAcc;
+        private System.Windows.Forms.DataGridView dgvCourse;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnCourse;
         private System.Windows.Forms.Button btnTeacherAcc;
@@ -284,8 +310,10 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtFullName;
-        private System.Windows.Forms.Label lblCourseID;
+        private System.Windows.Forms.TextBox txtCourseName;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtCourseID;
+        private System.Windows.Forms.Button btnCourseList;
+        private System.Windows.Forms.Button btnCourseAssigned;
     }
 }

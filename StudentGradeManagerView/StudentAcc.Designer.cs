@@ -52,13 +52,14 @@ namespace StudentGradeManagerView
             this.btnStudentAcc = new System.Windows.Forms.Button();
             this.btnAdminAcc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnCourseAssigned = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentAcc)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -194,6 +195,7 @@ namespace StudentGradeManagerView
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "DELETE STUDENT";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -203,6 +205,7 @@ namespace StudentGradeManagerView
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "UPDATE STUDENT";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // txtStudent
             // 
@@ -219,6 +222,7 @@ namespace StudentGradeManagerView
             this.btnSearch.TabIndex = 9;
             this.btnSearch.Text = "SEARCH ID";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // dgvStudentAcc
             // 
@@ -230,6 +234,7 @@ namespace StudentGradeManagerView
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnCourseAssigned);
             this.panel1.Controls.Add(this.btnCourse);
             this.panel1.Controls.Add(this.btnTeacherAcc);
             this.panel1.Controls.Add(this.btnStudentAcc);
@@ -291,15 +296,15 @@ namespace StudentGradeManagerView
             this.label1.TabIndex = 4;
             this.label1.Text = "ADMIN";
             // 
-            // pictureBox2
+            // btnCourseAssigned
             // 
-            this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_administrator_male_26;
-            this.pictureBox2.Location = new System.Drawing.Point(105, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(97, 87);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 285);
+            this.btnCourseAssigned.Name = "btnCourseAssigned";
+            this.btnCourseAssigned.Size = new System.Drawing.Size(118, 23);
+            this.btnCourseAssigned.TabIndex = 33;
+            this.btnCourseAssigned.Text = "Assigned Course";
+            this.btnCourseAssigned.UseVisualStyleBackColor = true;
+            this.btnCourseAssigned.Click += new System.EventHandler(this.btnCourseAssigned_Click);
             // 
             // pictureBox1
             // 
@@ -310,6 +315,16 @@ namespace StudentGradeManagerView
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::StudentGradeManagerView.Properties.Resources.icons8_administrator_male_26;
+            this.pictureBox2.Location = new System.Drawing.Point(105, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(97, 87);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // StudentAcc
             // 
@@ -327,8 +342,8 @@ namespace StudentGradeManagerView
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentAcc)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -360,5 +375,6 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblStudentID;
         private System.Windows.Forms.Button btnStudentList;
+        private System.Windows.Forms.Button btnCourseAssigned;
     }
 }

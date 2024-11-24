@@ -8,9 +8,13 @@ namespace StudentGradeManagerView.Store
 {
     public class UpdateGradeRequest
     {
+        public string Semester { get; set; } // Options: "First Semester" or "Second Semester"
 
+        
+        public double MidtermGrade { get; set; }
 
-        public int MidtermGrade { get; set; }
-        public int FinalGrade { get; set; }
+        
+        public double FinalGrade { get; set; }
+        public int CourseID { get; set; }
     }
 }

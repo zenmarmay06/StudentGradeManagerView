@@ -33,8 +33,8 @@ namespace StudentGradeManagerView
             this.lblTeacherID = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtStudent = new System.Windows.Forms.TextBox();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
+            this.BtnSearch = new System.Windows.Forms.Button();
+            this.BtnUpdate = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,10 +42,10 @@ namespace StudentGradeManagerView
             this.label2 = new System.Windows.Forms.Label();
             this.txtFullName = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCourse = new System.Windows.Forms.Button();
-            this.btnViewGrades = new System.Windows.Forms.Button();
-            this.btnInput = new System.Windows.Forms.Button();
-            this.btnUpdateAcc = new System.Windows.Forms.Button();
+            this.BtnCourse = new System.Windows.Forms.Button();
+            this.BtnViewGrades = new System.Windows.Forms.Button();
+            this.BtnInput = new System.Windows.Forms.Button();
+            this.BtnUpdateAcc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -60,8 +60,8 @@ namespace StudentGradeManagerView
             this.panel2.Controls.Add(this.lblTeacherID);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.txtStudent);
-            this.panel2.Controls.Add(this.btnSearch);
-            this.panel2.Controls.Add(this.btnUpdate);
+            this.panel2.Controls.Add(this.BtnSearch);
+            this.panel2.Controls.Add(this.BtnUpdate);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.txtPassword);
             this.panel2.Controls.Add(this.label3);
@@ -100,23 +100,23 @@ namespace StudentGradeManagerView
             this.txtStudent.Size = new System.Drawing.Size(100, 20);
             this.txtStudent.TabIndex = 15;
             // 
-            // btnSearch
+            // BtnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(486, 28);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(84, 23);
-            this.btnSearch.TabIndex = 14;
-            this.btnSearch.Text = "SEARCH ID";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.BtnSearch.Location = new System.Drawing.Point(486, 28);
+            this.BtnSearch.Name = "BtnSearch";
+            this.BtnSearch.Size = new System.Drawing.Size(84, 23);
+            this.BtnSearch.TabIndex = 14;
+            this.BtnSearch.Text = "SEARCH ID";
+            this.BtnSearch.UseVisualStyleBackColor = true;
             // 
-            // btnUpdate
+            // BtnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(256, 308);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(126, 23);
-            this.btnUpdate.TabIndex = 13;
-            this.btnUpdate.Text = "UPDATE TEACHER";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Location = new System.Drawing.Point(256, 308);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(126, 23);
+            this.BtnUpdate.TabIndex = 13;
+            this.BtnUpdate.Text = "UPDATE TEACHER";
+            this.BtnUpdate.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -174,10 +174,10 @@ namespace StudentGradeManagerView
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnCourse);
-            this.panel1.Controls.Add(this.btnViewGrades);
-            this.panel1.Controls.Add(this.btnInput);
-            this.panel1.Controls.Add(this.btnUpdateAcc);
+            this.panel1.Controls.Add(this.BtnCourse);
+            this.panel1.Controls.Add(this.BtnViewGrades);
+            this.panel1.Controls.Add(this.BtnInput);
+            this.panel1.Controls.Add(this.BtnUpdateAcc);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Location = new System.Drawing.Point(2, 64);
@@ -185,45 +185,41 @@ namespace StudentGradeManagerView
             this.panel1.Size = new System.Drawing.Size(322, 448);
             this.panel1.TabIndex = 9;
             // 
-            // btnCourse
+            // BtnCourse
             // 
-            this.btnCourse.Location = new System.Drawing.Point(30, 151);
-            this.btnCourse.Name = "btnCourse";
-            this.btnCourse.Size = new System.Drawing.Size(118, 23);
-            this.btnCourse.TabIndex = 10;
-            this.btnCourse.Text = "Course List";
-            this.btnCourse.UseVisualStyleBackColor = true;
-            this.btnCourse.Click += new System.EventHandler(this.btnCourse_Click);
+            this.BtnCourse.Location = new System.Drawing.Point(30, 151);
+            this.BtnCourse.Name = "BtnCourse";
+            this.BtnCourse.Size = new System.Drawing.Size(118, 23);
+            this.BtnCourse.TabIndex = 10;
+            this.BtnCourse.Text = "Course List";
+            this.BtnCourse.UseVisualStyleBackColor = true;
             // 
-            // btnViewGrades
+            // BtnViewGrades
             // 
-            this.btnViewGrades.Location = new System.Drawing.Point(30, 270);
-            this.btnViewGrades.Name = "btnViewGrades";
-            this.btnViewGrades.Size = new System.Drawing.Size(118, 23);
-            this.btnViewGrades.TabIndex = 8;
-            this.btnViewGrades.Text = "View Grades";
-            this.btnViewGrades.UseVisualStyleBackColor = true;
-            this.btnViewGrades.Click += new System.EventHandler(this.btnViewGrades_Click);
+            this.BtnViewGrades.Location = new System.Drawing.Point(30, 270);
+            this.BtnViewGrades.Name = "BtnViewGrades";
+            this.BtnViewGrades.Size = new System.Drawing.Size(118, 23);
+            this.BtnViewGrades.TabIndex = 8;
+            this.BtnViewGrades.Text = "View Grades";
+            this.BtnViewGrades.UseVisualStyleBackColor = true;
             // 
-            // btnInput
+            // BtnInput
             // 
-            this.btnInput.Location = new System.Drawing.Point(30, 229);
-            this.btnInput.Name = "btnInput";
-            this.btnInput.Size = new System.Drawing.Size(118, 23);
-            this.btnInput.TabIndex = 7;
-            this.btnInput.Text = "Input Grades";
-            this.btnInput.UseVisualStyleBackColor = true;
-            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
+            this.BtnInput.Location = new System.Drawing.Point(30, 229);
+            this.BtnInput.Name = "BtnInput";
+            this.BtnInput.Size = new System.Drawing.Size(118, 23);
+            this.BtnInput.TabIndex = 7;
+            this.BtnInput.Text = "Input Grades";
+            this.BtnInput.UseVisualStyleBackColor = true;
             // 
-            // btnUpdateAcc
+            // BtnUpdateAcc
             // 
-            this.btnUpdateAcc.Location = new System.Drawing.Point(30, 190);
-            this.btnUpdateAcc.Name = "btnUpdateAcc";
-            this.btnUpdateAcc.Size = new System.Drawing.Size(159, 23);
-            this.btnUpdateAcc.TabIndex = 6;
-            this.btnUpdateAcc.Text = "Update  Accounts";
-            this.btnUpdateAcc.UseVisualStyleBackColor = true;
-            this.btnUpdateAcc.Click += new System.EventHandler(this.btnUpdateAcc_Click);
+            this.BtnUpdateAcc.Location = new System.Drawing.Point(30, 190);
+            this.BtnUpdateAcc.Name = "BtnUpdateAcc";
+            this.BtnUpdateAcc.Size = new System.Drawing.Size(159, 23);
+            this.BtnUpdateAcc.TabIndex = 6;
+            this.BtnUpdateAcc.Text = "Update  Accounts";
+            this.BtnUpdateAcc.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -280,7 +276,7 @@ namespace StudentGradeManagerView
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button BtnUpdate;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label3;
@@ -288,15 +284,15 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtFullName;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnInput;
-        private System.Windows.Forms.Button btnUpdateAcc;
+        private System.Windows.Forms.Button BtnInput;
+        private System.Windows.Forms.Button BtnUpdateAcc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btnViewGrades;
+        private System.Windows.Forms.Button BtnViewGrades;
         private System.Windows.Forms.TextBox txtStudent;
-        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button BtnSearch;
         private System.Windows.Forms.Label lblTeacherID;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnCourse;
+        private System.Windows.Forms.Button BtnCourse;
     }
 }

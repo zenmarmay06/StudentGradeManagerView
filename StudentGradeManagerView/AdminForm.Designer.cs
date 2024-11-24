@@ -1,7 +1,7 @@
 ﻿
 namespace StudentGradeManagerView
 {
-    partial class Admin
+    partial class AdminForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,7 @@ namespace StudentGradeManagerView
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCourseAssigned = new System.Windows.Forms.Button();
             this.btnCourse = new System.Windows.Forms.Button();
             this.btnTeacherAcc = new System.Windows.Forms.Button();
             this.btnStudentAcc = new System.Windows.Forms.Button();
@@ -51,16 +52,15 @@ namespace StudentGradeManagerView
             this.txtAdmin = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dgvAdminAcc = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdminAcc)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnCourseAssigned);
             this.panel1.Controls.Add(this.btnCourse);
             this.panel1.Controls.Add(this.btnTeacherAcc);
             this.panel1.Controls.Add(this.btnStudentAcc);
@@ -71,6 +71,16 @@ namespace StudentGradeManagerView
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(322, 448);
             this.panel1.TabIndex = 0;
+            // 
+            // btnCourseAssigned
+            // 
+            this.btnCourseAssigned.Location = new System.Drawing.Point(28, 288);
+            this.btnCourseAssigned.Name = "btnCourseAssigned";
+            this.btnCourseAssigned.Size = new System.Drawing.Size(118, 23);
+            this.btnCourseAssigned.TabIndex = 9;
+            this.btnCourseAssigned.Text = "Assigned Course";
+            this.btnCourseAssigned.UseVisualStyleBackColor = true;
+            this.btnCourseAssigned.Click += new System.EventHandler(this.btnCourseAssigned_Click);
             // 
             // btnCourse
             // 
@@ -245,6 +255,7 @@ namespace StudentGradeManagerView
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "DELETE ADMIN";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -254,6 +265,7 @@ namespace StudentGradeManagerView
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "UPDATE ADMIN";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // txtAdmin
             // 
@@ -270,6 +282,7 @@ namespace StudentGradeManagerView
             this.btnSearch.TabIndex = 9;
             this.btnSearch.Text = "SEARCH ID";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // dgvAdminAcc
             // 
@@ -279,26 +292,15 @@ namespace StudentGradeManagerView
             this.dgvAdminAcc.Size = new System.Drawing.Size(276, 320);
             this.dgvAdminAcc.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::StudentGradeManagerView.Properties.Resources.z241;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Admin
+            // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(956, 520);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Admin";
+            this.Name = "AdminForm";
             this.Text = "Admin";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -306,7 +308,6 @@ namespace StudentGradeManagerView
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdminAcc)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -315,7 +316,6 @@ namespace StudentGradeManagerView
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnCourse;
         private System.Windows.Forms.Button btnTeacherAcc;
@@ -336,5 +336,6 @@ namespace StudentGradeManagerView
         private System.Windows.Forms.TextBox txtFullName;
         private System.Windows.Forms.Label lblAdminID;
         private System.Windows.Forms.Button btnAdminList;
+        private System.Windows.Forms.Button btnCourseAssigned;
     }
 }

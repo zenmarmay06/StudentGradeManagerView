@@ -17,21 +17,21 @@ namespace StudentGradeManagerView
             InitializeComponent();
         }
 
-        private void btnCourse_Click(object sender, EventArgs e)
+        private void BtnCourse_Click(object sender, EventArgs e)
         {
-            Student courselist = new Student();
+            StudentForm courselist = new StudentForm();
             courselist.Show();
             this.Hide();
         }
 
-        private void btnUpdateAcc_Click(object sender, EventArgs e)
+        private void BtnUpdateAcc_Click(object sender, EventArgs e)
         {
             UpdateStudent update = new UpdateStudent();
             update.Show();
             this.Hide();
         }
 
-        private void btnView_Click(object sender, EventArgs e)
+        private void BtnView_Click(object sender, EventArgs e)
         {
             ViewStudent view = new ViewStudent();
             view.Show();

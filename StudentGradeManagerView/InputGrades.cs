@@ -19,7 +19,7 @@ namespace StudentGradeManagerView
 
         private void btnCourse_Click(object sender, EventArgs e)
         {
-            Teacher courselist = new Teacher();
+            TeacherForm courselist = new TeacherForm();
             courselist.Show();
             this.Hide();
         }
